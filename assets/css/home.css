@@ -1,0 +1,174 @@
+/* home */
+.container-home {
+    margin-top: 70px;
+  }
+  .slide {
+    width: 100%;
+    height: 620px;
+    background: url("/img/slide.svg") top center / cover no-repeat;
+    position: relative;
+  }
+  .slide-content {
+    padding: 147px 151px;
+    text-align: center;
+  }
+  .slide-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .slide-heading {
+    margin-top: 72px;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .slide-desc {
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 24px;
+  }
+  .booknow {
+    margin-top: 72px;
+  }
+  .btn-booknow {
+    padding: 10px 42px;
+    background: #ffffff;
+    border-radius: 100px;
+  }
+  .btn-booknow:hover {
+    border: 2px solid #1a1a1a;
+  }
+  .btn-booknow__title {
+    margin-top: 70px;
+    font-family: "Lato";
+    font-style: normal;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-us {
+    margin: 80px 150px;
+    display: flex;
+    gap: 58px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .about-title {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .about-desc1 {
+    margin-top: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    text-align: justify;
+  }
+  .about-desc2 {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #333333;
+    text-align: justify;
+  }
+  .testimonials{
+    width: 100%;
+    height: auto;
+    background: url("/img/Testimonials.svg") top center / cover no-repeat;
+  
+  }
+  .footer{}
+  .fui-button-call {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .fui-button-call:hover .social-link {
+    width: 220px;
+  }
+  .fui-button-call:hover .text {
+    display: block;
+    color: #f43f5e;
+  }
+  .fui-button-call:hover .icon {
+    color: #fff;
+    background-color: #f43f5e;
+  }
+  .fui-button-call .social-link {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border-radius: 100rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .fui-button-call .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    border: 1px solid rgba(0, 0, 0, 0);
+    animation: turnCircle 1s linear infinite alternate;
+    background-color: #fff;
+    position: relative;
+    color: #f43f5e;
+  }
+  .fui-button-call .icon svg {
+    height: 26px;
+  }
+  .fui-button-call .text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+  }
+  @keyframes turnCircle {
+    100% {
+      transform: rotate(45deg);
+    }
+  }
+  
+  .testimonials{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    background: url('/img/Testimonials.svg') top center / cover no-repeat;
+  }
+  .testimonials-heading{
+    position: absolute;
+    margin-top: 80px;
+    font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+  /* end home */
+  
